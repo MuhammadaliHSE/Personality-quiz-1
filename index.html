@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/logo.png" alt="Personality Quiz Logo" class="logo">
+            <h1>Discover Your Personality Type</h1>
+        </header>
+
+        <div id="intro-screen" class="screen">
+            <p>Take this psychological quiz to reveal your dominant personality traits based on 30 scenario-based questions.</p>
+            <button id="start-btn" class="btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen hidden">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <h2 id="question-text"></h2>
+            <div id="options-container" class="options-container"></div>
+            <button id="next-btn" class="btn hidden">Next Question</button>
+        </div>
+
+        <div id="result-screen" class="screen hidden">
+            <h2>Your Personality Type</h2>
+            <div id="result-content"></div>
+            <button id="retake-btn" class="btn">Retake Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
