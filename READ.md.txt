@@ -1,0 +1,34 @@
+# Personality Quiz Website
+
+A psychological personality quiz that reveals users' mind types and personality traits based on scenario-based questions.
+
+## Features
+
+- 5 personality types: Emotional, Resilient, Decisive, Analytical, Creative
+- 30 scenario-based questions (6 per category)
+- Interactive quiz interface with visual feedback
+- Progress indicator
+- Detailed paragraph-based results
+- Responsive design for mobile and desktop
+
+## How to Use
+
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. Click "Start Quiz" to begin
+4. Answer all 30 questions
+5. View your personality type result at the end
+6. Click "Retake Quiz" to try again
+
+## Customization
+
+- Edit `questions.json` to modify or add questions
+- Adjust styles in `style.css`
+- Modify result descriptions in `script.js`
+
+## Future Enhancements
+
+- User accounts to save results
+- Social media sharing
+- More detailed analytics
+- Multiple language support
